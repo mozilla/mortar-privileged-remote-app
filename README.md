@@ -19,7 +19,7 @@ Or download the latest version in this [ZIP file](https://github.com/mozilla/mor
 
 ## Usage
 
-Import the app into the [App Manager](https://developer.mozilla.org/Firefox_OS/Using_the_App_Manager). Then you can run it in the simulator, or in a Firefox OS device.
+Import the app into the [WebIDE](https://developer.mozilla.org/en-US/docs/Tools/WebIDE). Then you can run it in the simulator, or on a Firefox OS device.
 
 ## Code walkthrough
 
