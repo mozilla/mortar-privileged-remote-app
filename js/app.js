@@ -5,7 +5,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 
   // We'll ask the browser to use strict code to help us catch errors earlier.
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+  // https://developer.mozilla.org/docs/Web/JavaScript/Reference/Strict_mode
   'use strict';
 
   var apiURL = 'https://developer.mozilla.org/search.json?q=';
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
   // we will listen to the 'submit' event, and prevent the form from doing what
   // it would usually do, using preventDefault.
   // Read more about it here:
-  // https://developer.mozilla.org/en-US/docs/Web/API/event.preventDefault
+  // https://developer.mozilla.org/docs/Web/API/event.preventDefault
   //
   // Then we search without leaving this page, just as we wanted.
   form.addEventListener('submit', function(e) {
@@ -113,7 +113,7 @@ window.addEventListener('DOMContentLoaded', function() {
       documents.forEach(function(doc) {
 
         // We're using textContent because inserting content from external sources into your page using innerHTML can be dangerous.
-        // https://developer.mozilla.org/en-US/docs/Web/API/Element.innerHTML#Security_considerations
+        // https://developer.mozilla.org/docs/Web/API/Element.innerHTML#Security_considerations
         var docLink = document.createElement('a');
         docLink.textContent = doc.title;
         docLink.href = doc.url;
